@@ -1,0 +1,111 @@
+body{
+  background-color: #28569c;
+}
+.shopping-list{
+  font-family:Arial, sans-serif;
+  text-align:center;
+  margin-top: 100px;
+}
+h1
+{
+  font-size: 4rem;
+  color:white;
+}
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.add-button{
+  background-color: #4CAF50;
+}
+.add-button:hover{
+  background-color: #45a049;
+}
+.edit-button{
+  background-color: #ff8800;
+}
+.edit-button:hover{
+  background-color: #dd9000;
+}
+.confirm-button{
+  background-color: #4CAF50;
+}
+.confirm-button:hover{
+  background-color: #42aa46;
+}
+.cancel-button{
+  background-color: #f44336;
+}
+.cancel-button:hover{
+  background-color: #da190b;
+}
+.delete-button{
+  background-color: #f44336;
+}
+.delete-button:hover{
+  background-color: #da190b;
+}
+.delete-button{
+  background-color: #f44336;
+}
+.delete-button:hover{
+  background-color: #da190b;
+}
+.moveup-button{
+  background-color: #008CBA;
+}
+.moveup-button:hover{
+  background-color: #007bb5;
+}
+.movedown-button{
+  background-color: #008CBA;
+}
+.movedown-button:hover{
+  background-color: #007bb5;
+}
+input[type="text"]{
+  font-size: 1.5rem;
+  padding: 10px;
+  width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  color:black;
+}
+ol{
+  padding:0;
+}
+li{
+  font-size:2rem;
+  font-weight:bold;
+  padding:15px;
+  margin-bottom:10px;
+  border: 3px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.text{
+  flex-grow: 1;
+}
+.edit-button, .confirm-button, .cancel-button, .delete-button, .moveup-button, .movedown-button{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
+li input[type="text"] {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: inherit;
+  border: 2px solid #999;
+  border-radius: 4px;
+  padding: 2px 6px;
+  color: inherit;
+}
